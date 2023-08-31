@@ -22,6 +22,8 @@
 
     <link rel="stylesheet" href="assets/css/lightbox.css">
 
+    <link rel="stylesheet" href="assets/css/testimoni.css">
+
     <script src="https://kit.fontawesome.com/08b1925417.js" crossorigin="anonymous"></script>
 </head>
 
@@ -276,26 +278,41 @@
     <section class="section" id="subscribe">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 offset-1">
-                    <div class="section-heading">
-                        <h2>Ask Me For Help</h2>
-                    </div>
-                    <div class="subscribe-content">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et optio ad corporis aliquam fuga nam odit consequuntur voluptatibus, tempore suscipit dolor, architecto nulla nesciunt, provident numquam saepe voluptatem ipsum hic!</p>
-                        <div class="subscribe-form">
-                            <div class="row">
-                                <div class="col-md-4 col-sm-12"></div>
-                                <div class="col-md-4 col-sm-12">
-                                    <fieldset>
-                                        <a href="https://wa.me/whatsappphonenumber/?text=urlencodedtext">
-                                            <button class="main-button">Send A WhatsApps</button>
-                                        </a>
-                                    </fieldset>
-                                </div>
+                <section id="testim" class="testim">
+                    <div class="wrap">
+                        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                        <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                        <ul id="testim-dots" class="dots">
+                            <li class="dot active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                        <div id="testim-content" class="cont">
+                            <div class="active">
+                                <h2>Lorem P. Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                            </div>
+                            <div>
+                                <h2>Mr. Lorem Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                            </div>
+                            <div>
+                                <h2>Lorem Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                            </div>
+                            <div>
+                                <h2>Lorem De Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                            </div>
+                            <div>
+                                <h2>Ms. Lorem R. Ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </section>
@@ -364,7 +381,7 @@
 
 
     <!-- ***** Contact Us Area Starts ***** -->
-    <!-- <section class="section" id="contact-us">
+    <section class="section" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
@@ -420,7 +437,7 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
     <!-- ***** Contact Us Area Ends ***** -->
 
     <!-- ***** Footer Start ***** -->
@@ -469,7 +486,7 @@
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
-
+    <script src="assets/js/testimoni.js"></script>
     <script>
         $(function() {
             var selectedClass = "";
@@ -485,6 +502,7 @@
             });
         });
     </script>
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
 
 </body>
 
