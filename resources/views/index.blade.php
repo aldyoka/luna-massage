@@ -291,22 +291,32 @@
                         </ul>
                         <div id="testim-content" class="cont">
                             <div class="active">
+                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div></div>
                                 <h2>Lorem P. Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
+                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div></div>
                                 <h2>Mr. Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
+                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div></div>
                                 <h2>Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
+                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div></div>
                                 <h2>Lorem De Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
+                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div></div>
                                 <h2>Ms. Lorem R. Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
@@ -334,7 +344,7 @@
                             <li data-filter=".des">Photos</li>
                             <li data-filter=".dev">Videos</li>
                             <!-- <li data-filter=".gra">Graphics</li>
-                        <li data-filter=".tsh">Artworks</li> -->
+                            <li data-filter=".tsh">Artworks</li> -->
                         </ul>
                     </div>
                 </div>
@@ -381,7 +391,7 @@
 
 
     <!-- ***** Contact Us Area Starts ***** -->
-    <section class="section" id="contact-us">
+    <!-- <section class="section" id="contact-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-xs-12">
@@ -437,7 +447,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- ***** Contact Us Area Ends ***** -->
 
     <!-- ***** Footer Start ***** -->
