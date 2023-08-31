@@ -291,31 +291,31 @@
                         </ul>
                         <div id="testim-content" class="cont">
                             <div class="active">
-                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div class="img"><img src="assets/images/member-item-01.jpg" alt=""></div>
                                 <div></div>
                                 <h2>Lorem P. Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
-                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div class="img"><img src="assets/images/member-item-02.jpg" alt=""></div>
                                 <div></div>
                                 <h2>Mr. Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
-                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div class="img"><img src="assets/images/member-item-03.jpg" alt=""></div>
                                 <div></div>
                                 <h2>Lorem Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
-                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div class="img"><img src="assets/images/member-item-04.jpg" alt=""></div>
                                 <div></div>
                                 <h2>Lorem De Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
                             </div>
                             <div>
-                                <!-- <div class="img"><img src="" alt=""></div> -->
+                                <div class="img"><img src="assets/images/member-item-05.jpg" alt=""></div>
                                 <div></div>
                                 <h2>Ms. Lorem R. Ipsum</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
@@ -335,8 +335,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="section-heading">
-                        <h6>Our Projects</h6>
-                        <h2>Some of our latest projects</h2>
+                        <h6>Our Gallery</h6>
+                        <h2>Some of our Service</h2>
                     </div>
                     <div class="filters">
                         <ul>
@@ -353,32 +353,32 @@
                         <div class="row grid">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                                 <div class="item">
-                                    <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-01.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
-                                <div class="item">
-                                    <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-02.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all gra">
-                                <div class="item">
-                                    <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-03.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all tsh">
-                                <div class="item">
-                                    <a href="assets/images/project-big-item-04.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-04.jpg" alt=""></a>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
-                                <div class="item">
-                                    <a href="assets/images/project-big-item-05.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-05.jpg" alt=""></a>
+                                    <a href="assets/images/project-big-item-01.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-01.jpg" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
                                 <div class="item">
-                                    <a href="assets/images/project-big-item-06.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-item-06.jpg" alt=""></a>
+                                    <a href="assets/images/project-big-item-02.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-02.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                <div class="item">
+                                    <a href="assets/images/project-big-item-03.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-03.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                <div class="item">
+                                    <a href="assets/images/project-big-item-04.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-04.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all des">
+                                <div class="item">
+                                    <a href="assets/images/project-big-item-05.jpg" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-05.jpg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 all dev">
+                                <div class="item">
+                                    <a href="assets/images/01.mp4" data-lightbox="image-1" data-title="Our Projects"><img src="assets/images/project-big-item-06.jpg" alt=""></a>
                                 </div>
                             </div>
                         </div>
