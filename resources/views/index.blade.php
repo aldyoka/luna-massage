@@ -286,7 +286,7 @@
                             <li class="dot active"></li>
                             <li class="dot"></li>
                             <li class="dot"></li>
-                            <li class="dot"></li>
+                            <li class="dot"></li> 
                             <li class="dot"></li>
                         </ul>
                         <div id="testim-content" class="cont">
