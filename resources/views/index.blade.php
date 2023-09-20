@@ -24,6 +24,8 @@
 
     <link rel="stylesheet" href="assets/css/testimoni.css">
 
+    <link rel="stylesheet" href="assets/css/table.css">
+
     <script src="https://kit.fontawesome.com/08b1925417.js" crossorigin="anonymous"></script>
 </head>
 
@@ -135,141 +137,50 @@
     <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="features">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Balinese Massage</h4>
-                            <p>Balinese Massage is a traditional form of massage therapy that originates from Bali, an Indonesian island known for its rich cultural heritage and wellness practices. This type of massage is deeply rooted in Balinese traditional medicine and incorporates various techniques to promote relaxation, relieve stress, and improve overall well-being.</p>
-                            <h4>Price: Rp. 225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Balinese Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Balinese Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Aromatherapy</h4>
-                            <p>Aromatherapy Massage is a form of massage therapy that combines traditional massage techniques with the use of essential oils derived from plants. The practice aims to enhance the overall massage experience by promoting relaxation, emotional well-being, and even physical healing through the inhalation and absorption of aromatic oils.</p>
-                            <h4>Price: Rp. 225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Aromatherapy %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Aromatherapy %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Deep Tissue Massage</h4>
-                            <p>Deep Tissue Massage is a type of massage therapy that focuses on addressing deeper layers of muscles and connective tissue in the body. This massage technique aims to release tension, alleviate chronic pain, and improve mobility by applying firm pressure and slow strokes to targeted areas. It is often sought after by individuals with chronic pain, injuries, or those who prefer a more intense massage experience</p>
-                            <h4>Price: Rp.225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Deep Tissue Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Deep Tissue Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Pregnant Massage</h4>
-                            <p>Prenatal Massage, also known as Pregnancy Massage, is a specialized type of massage therapy designed to support pregnant individuals during their pregnancy journey. It focuses on addressing the unique physical and emotional needs that arise during pregnancy and can help relieve discomfort, reduce stress, and promote overall well-being.</p>
-                            <h4>Price: Rp.225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Pregnant Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Pregnant Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Stone Massage</h4>
-                            <p>Stone Massage, also known as Hot Stone Massage, is a therapeutic massage technique that involves the use of heated stones to enhance the massage experience and promote relaxation, stress relief, and overall well-being. This type of massage incorporates both traditional massage techniques and the application of warm or hot stones to the body</p>
-                            <h4>Price: Rp.225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Stone Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Stone Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Foot Massage</h4>
-                            <p>Foot Massage, also known as Foot Reflexology or Foot Reflex Zone Therapy, is a therapeutic practice that involves applying pressure to specific points on the feet. This type of massage is based on the theory that different areas on the feet correspond to various organs and systems within the body. By stimulating these reflex points, foot massage aims to promote relaxation, balance the body's energy, and support overall well-being.</p>
-                            <h4>Price: Rp.225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Foot Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Foot Massage %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Body Scrub & Body Polish</h4>
-                            <p>Body Scrub and Body Polish are spa treatments that focus on exfoliating and rejuvenating the skin, leaving it smoother, softer, and more radiant. These treatments involve the use of various exfoliating agents and moisturizing products to remove dead skin cells and promote healthy skin renewal</p>
-                            <h4>Price: Rp.225.000/h</h4>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Body Scrub & Body Polish %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Book Now <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                            <br>
-                            <a href="https://wa.me/6281944911038/?text=Hi there! %0aMy name is [Your Name] %0aand I'm interested in booking a HOME SERVICE. %0aCan you please assist me with the details and availability? %0aHere's the information I'd like to provide: %0a- Service: Body Scrub & Body Polish %0a- Preferred Date: [Date] %0a- Preferred Time: [Time] %0aI'm looking forward to your response. Please let me know if you need any more information from me.%0aThank you! " class="text-button-icon">
-                                Home service <i class="fas fa-envelope" style="color: #94bbff;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h1 style="text-align: center">Our Service</h1>
+            <br>
+            <table class="beautiful-table">
+                <tbody>
+                    <tr style="te">
+                        <td>Balinese Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Aromatherapy Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Deeptissuee Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pregnant Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Foot Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Stone Massage</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                    <tr>
+                        <td>Body Scrub & Body Polish</td>
+                        <td>60 Minutes</td>
+                        <td style="text-align: right;">Rp. 225.000,00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
+                Book Now
+            </a>
         </div>
     </section>
     <!-- ***** Features Big Item End ***** -->
