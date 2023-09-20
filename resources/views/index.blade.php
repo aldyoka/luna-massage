@@ -137,50 +137,66 @@
     <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="features">
         <div class="container">
-            <h1 style="text-align: center">Our Service</h1>
-            <br>
-            <table class="beautiful-table">
-                <tbody>
-                    <tr style="te">
-                        <td>Balinese Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Aromatherapy Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Deeptissuee Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Pregnant Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Foot Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Stone Massage</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>Body Scrub & Body Polish</td>
-                        <td>60 Minutes</td>
-                        <td style="text-align: right;">Rp. 225.000,00</td>
-                    </tr>
-                </tbody>
-            </table>
-            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
-                Book Now
-            </a>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h1 style="text-align: center">Our Service</h1>
+                </div>
+                <div class="col-12">
+                    <table class="beautiful-table">
+                        <tbody>
+                            <tr style="te">
+                                <td>Balinese Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Aromatherapy Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Deeptissuee Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pregnant Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Foot Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Stone Massage</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                            <tr>
+                                <td>Body Scrub & Body Polish</td>
+                                <td>60 Minutes</td>
+                                <td style="text-align: right;">Rp. 225.000,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-md-auto">
+                            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
+                                Book Now
+                            </a>
+                        </div>
+                        <div class="col col-md-auto">
+                            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
+                                Try Home service
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- ***** Features Big Item End ***** -->
