@@ -144,7 +144,7 @@
                 <div class="col-12">
                     <table class="beautiful-table">
                         <tbody>
-                            <tr style="te">
+                            <tr>
                                 <td>Balinese Massage</td>
                                 <td>60 Minutes</td>
                                 <td style="text-align: right;">Rp. 225.000,00</td>
