@@ -253,9 +253,15 @@
                     </div>
                 </section>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Write a Review
-                </button>
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col col-md-auto">
+                            <button type="button" class="btn btn-info " data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: white;">
+                                Write a Review
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
