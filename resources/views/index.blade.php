@@ -12,7 +12,8 @@
     <title>Luna Massage</title>
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    {{-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"> --}}
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"> -->
 
@@ -27,6 +28,7 @@
     <link rel="stylesheet" href="assets/css/table.css">
 
     <script src="https://kit.fontawesome.com/08b1925417.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -191,7 +193,7 @@
                         </div>
                         <div class="col col-md-auto">
                             <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
-                                Try Home service
+                                Home service
                             </a>
                         </div>
                     </div>
@@ -250,6 +252,41 @@
                         </div>
                     </div>
                 </section>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Write a Review
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Review</h1>
+                            <button button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body ">
+                            <form class="row needs-validation" novalidate>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Name" style="color: black">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Enter Text Here</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="btn btn-primary" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
