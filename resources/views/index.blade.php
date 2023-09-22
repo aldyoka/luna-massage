@@ -83,7 +83,7 @@
                         <h3>Welcome Luna Massage</h3>
                         <h5>Feel The Experience of Unforgettable Massage</h5>
                         <a href="#about" class="main-stroked-button">Our Service</a>
-                        <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="main-filled-button">
+                        <a href="https://wa.me/6287761466144/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="main-filled-button">
                             Book Now
                         </a>
                     </div>
@@ -95,7 +95,7 @@
                     <div class="text-content">
                         <h3>Welcome Luna Massage</h3>
                         <h5>Try Unforgettable Massage From Home</h5>
-                        <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="main-filled-button">
+                        <a href="https://wa.me/6287761466144/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="main-filled-button">
                             Try our home service
                         </a>
                     </div>
@@ -146,7 +146,7 @@
                 <div class="col-12">
                     <table class="beautiful-table">
                         <tbody>
-                            <tr style="te">
+                            <tr>
                                 <td>Balinese Massage</td>
                                 <td>60 Minutes</td>
                                 <td style="text-align: right;">Rp. 225.000,00</td>
@@ -187,7 +187,7 @@
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col col-md-auto">
-                            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
+                            <a href="https://wa.me/6287761466144/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
                                 Book Now
                             </a>
                         </div>
