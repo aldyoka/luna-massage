@@ -16,15 +16,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css"> -->
-
     <link rel="stylesheet" href="assets/css/templatemo-breezed.css">
-
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
-
     <link rel="stylesheet" href="assets/css/lightbox.css">
-
     <link rel="stylesheet" href="assets/css/testimoni.css">
-
     <link rel="stylesheet" href="assets/css/table.css">
 
     <script src="https://kit.fontawesome.com/08b1925417.js" crossorigin="anonymous"></script>
@@ -279,14 +274,14 @@
                                         <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Name" style="color: black">
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Enter Text Here</label>
+                                        <label for="exampleFormControlTextarea1" class="form-label">Your Review</label>
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <div class="col-12">
                                         <button class="btn btn-primary" type="submit">Submit</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form> 
                         </div>
                         <div class="modal-footer">
                         </div>
