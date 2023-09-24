@@ -207,43 +207,20 @@
                         <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
                         <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
                         <ul id="testim-dots" class="dots">
+                        @foreach($data as $d)
                             <li class="dot active"></li>
-                            <li class="dot"></li>
-                            <li class="dot"></li>
-                            <li class="dot"></li> 
-                            <li class="dot"></li>
+                        @endforeach
                         </ul>
                         <div id="testim-content" class="cont">
+                        {{-- @dd($data) --}}
+                        @foreach($data as $review)                           
                             <div class="active">
-                                <div class="img"><img src="assets/images/member-item-01.jpg" alt=""></div>
+                                <div class="img"><img src="assets/images/{{ $review["img"] }}" alt=""></div>
                                 <div></div>
-                                <h2>Ethan Anderson</h2>
-                                <p>An incredible massage experience! The therapist's skilled hands worked magic, relieving every knot and tension. The serene ambiance and attentive service made it an absolute rejuvenating escape. Highly recommended</p>                    
+                                <h2>{{ $review["name"] }}</h2>
+                                <p>{{ $review["review"] }}</p>                    
                             </div>
-                            <div>
-                                <div class="img"><img src="assets/images/member-item-02.jpg" alt=""></div>
-                                <div></div>
-                                <h2>Benjamin Parker</h2>
-                                <p>Absolutely incredible experience! The massage was expertly done, easing away all my stress and tension. The therapist's skill and soothing ambiance created pure relaxation. Highly recommended for rejuvenation</p>                    
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/images/member-item-03.jpg" alt=""></div>
-                                <div></div>
-                                <h2>Lucas Bennett</h2>
-                                <p>Exquisite Balinese massage! The rhythmic techniques melted away every ounce of stress. Tranquil atmosphere, skilled therapist, and aromatic oils transported me to serenity. A blissful escape!</p>                    
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/images/member-item-04.jpg" alt=""></div>
-                                <div></div>
-                                <h2>Olivia Mitchell</h2>
-                                <p>Exquisite Balinese Massage! Tranquil ambiance, skilled therapist. Deeply relaxing techniques eased every muscle. A rejuvenating escape for body and mind.</p>                    
-                            </div>
-                            <div>
-                                <div class="img"><img src="assets/images/member-item-05.jpg" alt=""></div>
-                                <div></div>
-                                <h2>Sophia Carter</h2>
-                                <p>Exquisite Balinese massage! The skilled therapist combined with their warm service created a perfect escape. A wonderful blend of relaxation and professionalism. Highly pleased!</p>                    
-                            </div>
+                        @endforeach
                         </div>
                     </div>
                 </section>

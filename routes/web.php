@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Review;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', 
+        [
+            "data" => Review::find()
+        ]
+    );
 });
 
 Route::get('/gallery', function () {
