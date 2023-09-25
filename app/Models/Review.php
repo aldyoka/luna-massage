@@ -35,19 +35,19 @@ class Review
             "img" => "member-item-04.jpg",
             "name" => "Olivia Mitchell",
             "review" => "Exquisite Balinese Massage! Tranquil ambiance, skilled therapist. Deeply relaxing techniques eased every muscle. A rejuvenating escape for body and mind.",
-            "status" => "hide"
+            "status" => "show"
         ],
         [
             "img" => "member-item-05.jpg",
             "name" => "Sophia Carter",
             "review" => "Exquisite Balinese massage! The skilled therapist combined with their warm service created a perfect escape. A wonderful blend of relaxation and professionalism. Highly pleased!",
-            "status" => "hide"
+            "status" => "show"
         ],
         [
             "img" => "member-item-05.jpg",
             "name" => "66666",
             "review" => "Exquisite Balinese massage! The skilled therapist combined with their warm service created a perfect escape. A wonderful blend of relaxation and professionalism. Highly pleased!",
-            "status" => "hide"
+            "status" => "show"
         ]
     ];
 
