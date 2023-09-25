@@ -10,7 +10,7 @@ namespace App\Models;
 //     use HasFactory;
 // }
 
-class Review
+class Review_
 {
     static $reviews = [
         [
@@ -43,12 +43,6 @@ class Review
             "review" => "Exquisite Balinese massage! The skilled therapist combined with their warm service created a perfect escape. A wonderful blend of relaxation and professionalism. Highly pleased!",
             "status" => "show"
         ],
-        [
-            "img" => "member-item-05.jpg",
-            "name" => "66666",
-            "review" => "Exquisite Balinese massage! The skilled therapist combined with their warm service created a perfect escape. A wonderful blend of relaxation and professionalism. Highly pleased!",
-            "status" => "show"
-        ]
     ];
 
     public static function all()

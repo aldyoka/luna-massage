@@ -215,10 +215,10 @@
                         {{-- @dd($data) --}}
                         @foreach($data as $review)                           
                             <div class="active">
-                                <div class="img"><img src="assets/images/{{ $review["img"] }}" alt=""></div>
+                                <div class="img"><img src="assets/images/{{ $review->img }}" alt=""></div>
                                 <div></div>
-                                <h2>{{ $review["name"] }}</h2>
-                                <p>{{ $review["review"] }}</p>                    
+                                <h2>{{ $review->name }}</h2>
+                                <p>{{ $review->review }}</p>                    
                             </div>
                         @endforeach
                         </div>
