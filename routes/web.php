@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\ReviewController;
 use App\Models\Review;
 use Illuminate\Support\Facades\Route;
 
@@ -14,14 +16,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index', 
-        [
-            "data" => Review::find()
-        ]
-    );
-});
-
-Route::get('/gallery', function () {
-    return view('gallery');
-});
+Route::get('/', [ReviewController::class,'index']);
+Route::get('/gallery', [AdminController::class,'gallery']);

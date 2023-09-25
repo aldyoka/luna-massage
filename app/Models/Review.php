@@ -35,7 +35,7 @@ class Review
             "img" => "member-item-04.jpg",
             "name" => "Olivia Mitchell",
             "review" => "Exquisite Balinese Massage! Tranquil ambiance, skilled therapist. Deeply relaxing techniques eased every muscle. A rejuvenating escape for body and mind.",
-            "status" => "show"
+            "status" => "hide"
         ],
         [
             "img" => "member-item-05.jpg",
