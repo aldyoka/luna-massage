@@ -218,7 +218,7 @@
                                 <div class="img"><img src="assets/images/{{ $review->img }}" alt=""></div>
                                 <div></div>
                                 <h2>{{ $review->name }}</h2>
-                                <p>{{ $review->review }}</p>                    
+                                <p>{{ $review->review }}</p>
                             </div>
                         @endforeach
                         </div>
