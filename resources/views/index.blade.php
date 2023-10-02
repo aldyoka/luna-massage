@@ -102,6 +102,12 @@
     <!-- ***** Main Banner Area End ***** -->
 
     <!-- ***** About Area Starts ***** -->
+    @if(session()->has('success'))    
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
     <section class="section" id="about">
         <div class="container">
             <div class="row">
@@ -215,9 +221,9 @@
                         {{-- @dd($data) --}}
                         @foreach($data as $review)                           
                             <div class="active">
-                                <div class="img"><img src="assets/images/{{ $review->img }}" alt=""></div>
+                                <div class="img"><img src="/img/{{ $review->img }}" alt=""></div>
                                 <div></div>
-                                <h2>{{ $review->name }}</h2>
+                                <h2>{{ $review->nama }}</h2>
                                 <p>{{ $review->review }}</p>
                             </div>
                         @endforeach
@@ -243,17 +249,44 @@
                             <h1 class="modal-title fs-5" id="exampleModalLabel">Review</h1>
                             <button button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                        <div class="modal-body ">
-                            <form class="row needs-validation" novalidate>
+                        <div class="modal-body">
+                            <form class="row needs-validation" action="/submit" method="post" enctype="multipart/form-data">
+                                @csrf
                                 <div class="col-md-12">
                                     <div class="mb-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Name" style="color: black">
+                                        <label for="nama" class="form-label">Name</label>
+                                        <input type="Text" name="nama" class="form-control border @error('nama') 
+                                            is-invalid                                        
+                                        @enderror" id="nama" placeholder="Name" style="color: black" value="{{ old('nama') }}">
+                                        @error('nama')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
                                     </div>
                                     <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Your Review</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <label for="review" class="form-label">Your Review</label>
+                                        <textarea class="form-control @error('review')
+                                            is-invalid
+                                        @enderror" name="review" id="review" rows="3">{{ old('review') }}</textarea>
+                                        @error('review')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
                                     </div>
+                                    <div class="mb-3">
+                                        <label for="img" class="form-label" >Upload Your Image</label>
+                                        <input class="form-control border @error('img')
+                                            is-invalid
+                                        @enderror" type="file" name="img" id="img" style="color: black;">
+                                        @error('img')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
+                                    </div>
+                                    <input type="hidden" id="status" name="status" value=1>
                                     <div class="col-12">
                                         <button class="btn btn-primary" type="submit">Submit</button>
                                     </div>

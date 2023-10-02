@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\ReviewController;
-use App\Models\Review;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+// reviews
 Route::get('/', [ReviewController::class,'index']);
+Route::post('/submit', [ReviewController::class,'submit']);
+// admin
 Route::get('/gallery', [AdminController::class,'gallery']);
+
