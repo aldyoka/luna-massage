@@ -15,18 +15,18 @@ class ReviewController extends Controller
 
     public function submit(Request $request)
     {
-        return $request->file('img')->store('img');
+        // return $request->file('img')->store('img');
 
         $validatedData = $request -> validate([
             'nama' => 'required',
             'review' => 'required|min:10',
-            'img' => 'required',
+            'img' => 'required|image|file|max:1024',
             'status' => 'required'
         ]);
 
-        // dd($validatedData);
+        $validatedData['img'] = $request->file('img')->store('img');
         Review::create($validatedData);
         session()->flash('success','Thank for Your Review');
-        // return redirect('/');
+        return redirect('/');
     }
 }

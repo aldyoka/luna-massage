@@ -221,7 +221,7 @@
                         {{-- @dd($data) --}}
                         @foreach($data as $review)                           
                             <div class="active">
-                                <div class="img"><img src="/img/{{ $review->img }}" alt=""></div>
+                                <div class="img"><img src="/{{ $review->img }}" alt=""></div>
                                 <div></div>
                                 <h2>{{ $review->nama }}</h2>
                                 <p>{{ $review->review }}</p>
@@ -285,6 +285,9 @@
                                                 {{ $message }}
                                             </div>
                                         @enderror
+                                        <div class="form-text">
+                                            Max Size of image 1 Mb.
+                                        </div>
                                     </div>
                                     <input type="hidden" id="status" name="status" value=1>
                                     <div class="col-12">
