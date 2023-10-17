@@ -111,25 +111,12 @@
     <section class="section" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-12 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
                             <h6>About Us</h6>
                             <h2>We are open every day <br>from 08.00 am to 10.00 pm.</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-xs-12">
-                    <div class="right-text-content">
-                        <h3>Our Service Location:</h3>
-                        <ul>
-                            <li>Nusa Dua</li>
-                            <li>Jimbaran</li>
-                            <li>Uluwatu</li>
-                            <li>Pecatu</li>
-                            <li>Seminyak</li>
-                            <li>Canggu</li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -141,61 +128,80 @@
     <section class="section" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-12 mb-3">
-                    <h1 style="text-align: center">Our Service</h1>
-                </div>
-                <div class="col-12">
-                    <table class="beautiful-table">
-                        <tbody>
-                            <tr>
-                                <td>Balinese Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Aromatherapy Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Deeptissuee Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Pregnant Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Foot Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Stone Massage</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                            <tr>
-                                <td>Body Scrub & Body Polish</td>
-                                <td>60 Minutes</td>
-                                <td style="text-align: right;">Rp. 225.000,00</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="container">
-                    <div class="row justify-content-md-center">
-                        <div class="col col-md-auto">
-                            <a href="https://wa.me/6287761466144/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
-                                Book Now
-                            </a>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
                         </div>
-                        <div class="col col-md-auto">
-                            <a href="https://wa.me/6281944911038/?text=Hey My name is ... I want to book your massage service, i will come at ..." class="filled-button" >
-                                Home service
-                            </a>
+                        <div class="features-content">
+                            <h4>Balinese Massage</h4>
+                            <p>Balinese Massage is a traditional form of massage therapy that originates from Bali, an Indonesian island known for its rich cultural heritage and wellness practices. This type of massage is deeply rooted in Balinese traditional medicine and incorporates various techniques to promote relaxation, relieve stress, and improve overall well-being.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Aromatherapy</h4>
+                            <p>Aromatherapy Massage is a form of massage therapy that combines traditional massage techniques with the use of essential oils derived from plants. The practice aims to enhance the overall massage experience by promoting relaxation, emotional well-being, and even physical healing through the inhalation and absorption of aromatic oils.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Deep Tissue Massage</h4>
+                            <p>Deep Tissue Massage is a type of massage therapy that focuses on addressing deeper layers of muscles and connective tissue in the body. This massage technique aims to release tension, alleviate chronic pain, and improve mobility by applying firm pressure and slow strokes to targeted areas. It is often sought after by individuals with chronic pain, injuries, or those who prefer a more intense massage experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Pregnant Massage</h4>
+                            <p>Prenatal Massage, also known as Pregnancy Massage, is a specialized type of massage therapy designed to support pregnant individuals during their pregnancy journey. It focuses on addressing the unique physical and emotional needs that arise during pregnancy and can help relieve discomfort, reduce stress, and promote overall well-being.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Stone Massage</h4>
+                            <p>Stone Massage, also known as Hot Stone Massage, is a therapeutic massage technique that involves the use of heated stones to enhance the massage experience and promote relaxation, stress relief, and overall well-being. This type of massage incorporates both traditional massage techniques and the application of warm or hot stones to the body</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Foot Massage</h4>
+                            <p>Foot Massage, also known as Foot Reflexology or Foot Reflex Zone Therapy, is a therapeutic practice that involves applying pressure to specific points on the feet. This type of massage is based on the theory that different areas on the feet correspond to various organs and systems within the body. By stimulating these reflex points, foot massage aims to promote relaxation, balance the body's energy, and support overall well-being.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item">
+                        <div class="features-icon">
+                            <img src="assets/images/features-icon-2.png" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>Body Scrub & Body Polish</h4>
+                            <p>Body Scrub and Body Polish are spa treatments that focus on exfoliating and rejuvenating the skin, leaving it smoother, softer, and more radiant. These treatments involve the use of various exfoliating agents and moisturizing products to remove dead skin cells and promote healthy skin renewal</p>
                         </div>
                     </div>
                 </div>
