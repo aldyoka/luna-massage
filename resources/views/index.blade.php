@@ -117,8 +117,8 @@
     <section class="section" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-xs-12">
-                    <div class="right-text-content">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
                         <div class="section-heading">
                             <h2>Layanan Kami</h2>
                             <br>
@@ -129,6 +129,19 @@
                                 dolorem
                                 ab!</h5>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <h3>Our Service Location:</h3>
+                        <ul>
+                            <li>Nusa Dua</li>
+                            <li>Jimbaran</li>
+                            <li>Uluwatu</li>
+                            <li>Pecatu</li>
+                            <li>Seminyak</li>
+                            <li>Canggu</li>
+                        </ul>
                     </div>
                 </div>
             </div>
