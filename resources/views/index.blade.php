@@ -120,7 +120,7 @@
                 <div class="col-lg-6 col-md-6 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h2>Layanan Kami</h2>
+                            <h6>Layanan Kami</h6>
                             <br>
                             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolor culpa vitae omnis
                                 veniam sequi eos possimus esse earum incidunt molestias blanditiis, minus iste
