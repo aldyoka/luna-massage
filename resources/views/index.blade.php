@@ -59,6 +59,7 @@
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">About</a></li>
                             <li class="scroll-to-section"><a href="#projects">Gallery</a></li>
+                            <li class="scroll-to-section"><a href="#">Login/Register</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -89,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            {{-- <div class="item">
                 <div class="img-fill">
                     <img src="assets/images/slide-02.jpg" alt="">
                     <div class="text-content">
@@ -101,7 +102,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
@@ -117,31 +118,21 @@
     <section class="section" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-7 col-md-7 col-xs-12">
                     <div class="left-text-content">
                         <div class="section-heading">
-                            <h6>Layanan Kami</h6>
+                            <h1>Tentang Kami</h1>
                             <br>
-                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolor culpa vitae omnis
-                                veniam sequi eos possimus esse earum incidunt molestias blanditiis, minus iste
-                                doloremque
-                                iusto eum asperiores facere natus maxime nam reiciendis aperiam. In provident libero
-                                dolorem
-                                ab!</h5>
+                            <h5 class="mt-4">Kami adalah perusahaan Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Nemo nostrum, rerum cum
+                                maiores repudiandae, placeat animi vero similique qui explicabo velit</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="col-lg-2 col-md-2">
                     <div class="right-text-content">
-                        <h3>Our Service Location:</h3>
-                        <ul>
-                            <li>Nusa Dua</li>
-                            <li>Jimbaran</li>
-                            <li>Uluwatu</li>
-                            <li>Pecatu</li>
-                            <li>Seminyak</li>
-                            <li>Canggu</li>
-                        </ul>
+                        <img src="https://ih1.redbubble.net/image.207973242.9515/sticker,375x360-bg,ffffff.u6.png"
+                            alt="logo here" style="width: 100%; margin-left: 20%;">
                     </div>
                 </div>
             </div>
@@ -152,6 +143,12 @@
     <!-- ***** Features Big Item Start ***** -->
     <section class="section" id="features">
         <div class="container">
+            <div class="col-lg-4-">
+                <div class="text-center mb-5">
+                    <h2>Paket Pemblajaran</h2>
+                    <hr>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
                     data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
@@ -268,7 +265,7 @@
     </section>
     <!-- ***** Features Big Item End ***** -->
 
-    <!-- ***** Features Big Item Start ***** -->
+    <!-- ***** Testi Start ***** -->
     <section class="section" id="subscribe">
         <div class="container">
             <div class="row">
@@ -298,7 +295,7 @@
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col col-md-auto">
-                            <button type="button" class="btn btn-info " data-bs-toggle="modal"
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal" style="color: white;">
                                 Write a Review
                             </button>
@@ -379,8 +376,7 @@
             </div>
         </div>
     </section>
-    <!-- ***** Features Big Item End ***** -->
-
+    <!-- ***** Testi End ***** -->
 
     <!-- ***** Projects Area Starts ***** -->
     <section class="section" id="projects">
@@ -388,8 +384,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="section-heading">
-                        <h6>Our Gallery</h6>
-                        <h2>Some of our Service</h2>
+                        {{-- <h6>Our Gallery</h6> --}}
+                        <h2>Galerry</h2>
                     </div>
                     <div class="filters">
                         <ul>
@@ -453,7 +449,6 @@
         </div>
     </section>
     <!-- ***** Projects Area Ends ***** -->
-
 
     <!-- ***** Contact Us Area Starts ***** -->
     <!-- <section class="section" id="contact-us">
