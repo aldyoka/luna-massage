@@ -1,0 +1,173 @@
+[33mcommit fe26e57a41bec190498862580ff407d8466adf13[m[33m ([m[1;36mHEAD -> [m[1;32mdemo[m[33m, [m[1;31morigin/demo[m[33m)[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Wed Oct 18 04:13:33 2023 +0800
+
+    ganti tampilan menu dan project
+
+[33mcommit d61256d985cfed9d19cc0f49307d0edc85034453[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Mon Oct 2 20:00:01 2023 +0800
+
+    fix review siap dev tahap 1
+
+[33mcommit dfedfc10ba5d6e1d08b14a92330aa66a40f9427d[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Mon Oct 2 08:44:36 2023 +0800
+
+    review and crud
+
+[33mcommit d0b432f6aa53a8e2656c1b711ad42b67a5347cca[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Wed Sep 27 06:07:59 2023 +0800
+
+    memanggil data dari database
+
+[33mcommit d794521465fb200be84607aa26ab11b1860f786c[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Tue Sep 26 07:33:26 2023 +0800
+
+    creating db
+
+[33mcommit 9448675fa59308034e07825414475f6c7bc36923[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Tue Sep 26 06:13:18 2023 +0800
+
+    modif env untuk db
+
+[33mcommit 8ba321269ee97467cdf97cf57d46761be3b59f18[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Mon Sep 25 20:03:02 2023 +0800
+
+    membuat controler admin dan review
+
+[33mcommit ff2b9a3f610afb7b88170c5af8a0c67fee944b6f[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Sun Sep 24 22:47:33 2023 +0800
+
+    menambahkan model data review
+
+[33mcommit 0d1c4a19a8c9306d88045b9cb1107c2a7695fde0[m
+Merge: 65c6a96 6791316
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Sun Sep 24 19:15:37 2023 +0800
+
+    Merge branch 'demo' of https://github.com/aldyoka/luna-massage into demo
+
+[33mcommit 67913160807e8880a28f5629d32b6b392ad5b0c5[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Sun Sep 24 19:14:33 2023 +0800
+
+    test
+
+[33mcommit 65c6a96f2cb7b05f303a94f8b5a145f4ef23e6bd[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Sun Sep 24 19:05:59 2023 +0800
+
+    fix view, lanjut ke pembuatan model dan db
+
+[33mcommit 3dc1e3da63dd175e31db7995f23c775c203571ef[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 22 14:17:56 2023 +0800
+
+    revisi button
+
+[33mcommit ca73ecef1cd7a956174707dba83d07484b7c1bb2[m
+Merge: cf1cc29 cf3ccd0
+Author: aldy oka <70521530+aldyoka@users.noreply.github.com>
+Date:   Fri Sep 22 11:24:28 2023 +0800
+
+    Merge pull request #1 from aldyoka/demo
+    
+    Demo
+
+[33mcommit cf3ccd0df41202d594b3e378cd7b1bd304a886c0[m
+Merge: 68b24a4 6b4da2d
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 22 11:22:03 2023 +0800
+
+    Merge branch 'demo' of https://github.com/aldyoka/luna-massage into demo
+
+[33mcommit 68b24a4e5534d0c8e2802da8281afe45e34f74ac[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 22 11:20:02 2023 +0800
+
+    add review menu
+
+[33mcommit 6b4da2d30bb63f295652d169b0df25355ce1c586[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 22 06:58:39 2023 +0800
+
+    redy to dev
+
+[33mcommit 7488382d35a43250d984900fad57632d4962f088[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Thu Sep 21 09:32:38 2023 +0800
+
+    eror in line 147
+
+[33mcommit ca374298398c8206393dae98a21f835f5d357235[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Wed Sep 20 14:48:43 2023 +0800
+
+    mengganti tampilan Menu
+
+[33mcommit 1de55dd5bdce55285174e6d9e8f2ad99f5a8d018[m
+Merge: 6682335 15e138c
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Wed Sep 20 14:30:12 2023 +0800
+
+    Merge branch 'demo' of https://github.com/aldyoka/luna-massage into demo
+
+[33mcommit 6682335759717b929a3b00ef3c0d5da26dff4022[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Wed Sep 20 14:29:34 2023 +0800
+
+    mengganti tampulan menu
+
+[33mcommit 15e138cd41a023385d62c90cc378c774d506a921[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Mon Sep 18 20:32:30 2023 +0800
+
+    cek perbaikan
+
+[33mcommit cf1cc29d14a3200c84092501ca2300cd0dcba80f[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 1 03:42:33 2023 +0800
+
+    pergantian foto dan perbaikan tampilan foto
+
+[33mcommit 0d97c24e3fef161ff3fc42409153a9c67f66d197[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 1 03:18:48 2023 +0800
+
+    pergantian foto dan perbaikan tampilan foto
+
+[33mcommit 302f29c32a25de98a66621cf297cbac328c9a584[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 1 02:45:56 2023 +0800
+
+    perbaikan fitur review
+
+[33mcommit 59cd388258f6ce48aab27c4627374264f5eb4a3d[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 1 02:21:37 2023 +0800
+
+    memasukan fitur testimoni
+
+[33mcommit 8b53906746a5bf77dbd1a08ecd47201bcfab7a7e[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Fri Sep 1 01:57:07 2023 +0800
+
+    Commit pertama
+
+[33mcommit 208f16f6c34f5848e4cb7d1ff2a49cee37453e45[m
+Author: aldyoka <aldyoka45@gmail.com>
+Date:   Thu Aug 31 18:46:34 2023 +0800
+
+    first commit
+
+[33mcommit dafb92c62e7b0adf7ac13a31fdf01606e715f0f3[m
+Author: aldy oka <70521530+aldyoka@users.noreply.github.com>
+Date:   Thu Aug 31 18:34:47 2023 +0800
+
+    Initial commit
