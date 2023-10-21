@@ -19,4 +19,6 @@ Route::get('/', [ReviewController::class,'index']);
 Route::post('/submit', [ReviewController::class,'submit']);
 // admin
 Route::get('/gallery', [AdminController::class,'gallery']);
+Route::get('/konten', [AdminController::class,'konten']);
+Route::post('/addKonten', [AdminController::class,'addKonten']);
 

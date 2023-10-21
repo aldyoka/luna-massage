@@ -150,116 +150,21 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Balinese Massage</h4>
-                            <p>Balinese Massage is a traditional form of massage therapy that originates from Bali, an
-                                Indonesian island known for its rich cultural heritage and wellness practices. This type
-                                of massage is deeply rooted in Balinese traditional medicine and incorporates various
-                                techniques to promote relaxation, relieve stress, and improve overall well-being.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Aromatherapy</h4>
-                            <p>Aromatherapy Massage is a form of massage therapy that combines traditional massage
-                                techniques with the use of essential oils derived from plants. The practice aims to
-                                enhance the overall massage experience by promoting relaxation, emotional well-being,
-                                and even physical healing through the inhalation and absorption of aromatic oils.</p>
+                @foreach ($data_konten as $konten)
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <div class="features-item">
+                            <div class="features-icon">
+                                <img src="assets/images/features-icon-2.png" alt="">
+                            </div>
+                            <div class="features-content">
+                                <h4>{{ $konten->judul }}</h4>
+                                <p>{{ $konten->isi }}</p>
+                                <h4>Rp. {{ $konten->harga }}</h4>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Deep Tissue Massage</h4>
-                            <p>Deep Tissue Massage is a type of massage therapy that focuses on addressing deeper layers
-                                of muscles and connective tissue in the body. This massage technique aims to release
-                                tension, alleviate chronic pain, and improve mobility by applying firm pressure and slow
-                                strokes to targeted areas. It is often sought after by individuals with chronic pain,
-                                injuries, or those who prefer a more intense massage experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Pregnant Massage</h4>
-                            <p>Prenatal Massage, also known as Pregnancy Massage, is a specialized type of massage
-                                therapy designed to support pregnant individuals during their pregnancy journey. It
-                                focuses on addressing the unique physical and emotional needs that arise during
-                                pregnancy and can help relieve discomfort, reduce stress, and promote overall
-                                well-being.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Stone Massage</h4>
-                            <p>Stone Massage, also known as Hot Stone Massage, is a therapeutic massage technique that
-                                involves the use of heated stones to enhance the massage experience and promote
-                                relaxation, stress relief, and overall well-being. This type of massage incorporates
-                                both traditional massage techniques and the application of warm or hot stones to the
-                                body</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Foot Massage</h4>
-                            <p>Foot Massage, also known as Foot Reflexology or Foot Reflex Zone Therapy, is a
-                                therapeutic practice that involves applying pressure to specific points on the feet.
-                                This type of massage is based on the theory that different areas on the feet correspond
-                                to various organs and systems within the body. By stimulating these reflex points, foot
-                                massage aims to promote relaxation, balance the body's energy, and support overall
-                                well-being.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
-                        <div class="features-icon">
-                            <img src="assets/images/features-icon-2.png" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>Body Scrub & Body Polish</h4>
-                            <p>Body Scrub and Body Polish are spa treatments that focus on exfoliating and rejuvenating
-                                the skin, leaving it smoother, softer, and more radiant. These treatments involve the
-                                use of various exfoliating agents and moisturizing products to remove dead skin cells
-                                and promote healthy skin renewal</p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
@@ -279,7 +184,7 @@
                             @endforeach
                         </ul>
                         <div id="testim-content" class="cont">
-                            {{-- @dd($data) --}}
+                            {{-- @dd($data-konten) --}}
                             @foreach ($data as $review)
                                 <div class="active">
                                     <div class="img"><img src="/{{ $review->img }}" alt=""></div>
@@ -362,13 +267,13 @@
                                             </div>
                                         </div>
                                         <input type="hidden" id="status" name="status" value=1>
+                                    </div>
+                                    <div class="modal-footer">
                                         <div class="col-12">
                                             <button class="btn btn-primary" type="submit">Submit</button>
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                            <div class="modal-footer">
                             </div>
                         </div>
                     </div>
